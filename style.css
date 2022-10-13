@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1440px;
+    font-size: 18px;
+}
+.main-item{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 20px;
+    height: 480px;
+    padding: 25px;
+}
+.main-item div{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0, 2);
+    border-radius: 5px;
+    height: 100px;
+    padding:25px;
+    flex: 1 1 auto;
+}
+footer{
+ border: 1px solid red;
+ height: 50px;
+ padding:10px;
+ border-radius: 5px;
+ flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 476px){
+    body{
+        background: pink;
+    }
+}
+@media only screen and (min-width: 477px) and (max-width: 960px) {
+    body{
+      background-color: #F5CF8E; 
+      }
+}
+@media only screen and (min-width: 961px){
+    body{  
+      background-color: #B2D6FF;
+    }
+} 
